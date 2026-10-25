@@ -26,6 +26,8 @@ class MainActivity : Activity() {
             setBackgroundColor(Color.rgb(10, 10, 13))
         }
         root.addView(TextView(this).apply {
+            setBackgroundResource(R.drawable.title_panel)
+            setPadding(12, 26, 12, 26)
             text = "ScrolL of RevelatioN"
             textSize = 26f
             setTextColor(gold)
